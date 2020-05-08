@@ -6,15 +6,18 @@ $(document).ready(function() {
         complete: function(results) {
             $('#members').DataTable( {
                 data: results.data,
-                order: [[ 1, 'asc' ], [ 0, 'asc' ]],
                 columns: [
-                    { data: 'Given Name' },
-                    { data: 'Family Name' },
+                    { data: 'Name', render : function ( data, type, row, meta ) { 
+                        var name = row["Family Name"] + ", " + row["Given Name"];
+                        if (row["Home Page"]) {
+                            name = '<a href="' + row["Home Page"] + '">' + name + '</a>';
+                        }
+                        return name;
+                    } },
                     { data: 'Affiliation' },
                     { data: 'Country' },
-                    { data: 'Home Page' },
                     { data: 'Interests' },
-                ]
+                ],
             } );
         }
     } )

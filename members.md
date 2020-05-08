@@ -19,11 +19,9 @@ If you would like to join SIGLEX, please fill out the [SIGLEX registration form]
 <table id="members" class="table table-striped table-bordered" style="width:100%">
   <thead>
     <tr>
-      <th>Given Name</th>
-      <th>Family Name</th>
+      <th>Name</th>
       <th>Affiliation</th>
       <th>Country</th>
-      <th>Home Page</th>
       <th>Interests</th>
     </tr>
   </thead>
