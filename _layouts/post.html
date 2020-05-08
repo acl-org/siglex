@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h1><a href="{{ page.event_homepage }}">{{ page.event_name }}</a></h1>
+<h2>in {{ page.event_location }}</h2>
+{% if page.event_conference_name %}
+<h3>as part of <a href="{{ page.event_conference_url }}">{{ page.event_conference_name }}</a></h3>
+{% endif %}
+
+{{ content }}

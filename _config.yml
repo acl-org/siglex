@@ -1,3 +1,4 @@
 url: "http://bethard.github.io"
 baseurl: "/siglex"
 title: "ACL SIGLEX"
+future: true
