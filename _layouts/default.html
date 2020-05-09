@@ -4,7 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>{{ site.title }} - {{ page.title }}</title>
+  <title>
+    {{ site.title }}
+    {% if page.url contains "legacy" %} - Legacy {% endif %}
+    {% if page.url contains "/event/" %} - Events {% endif %}
+    -
+    {% if page.event_name %}{{ page.event_name }}{% else %}{{ page.title }}{% endif %}
+  </title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/siglex.css">
@@ -61,10 +67,20 @@
           <a class="nav-link" href="https://www.aclweb.org/anthology/sigs/siglex/">Publications</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://alt.qcri.org/siglex/messctr.php?TYPE=ALL">Forum</a>
+          <a class="nav-link" href="">Forum</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="http://alt.qcri.org/siglex/ressearch.php">Resources</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Legacy
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ site.baseurl }}/legacy/kilgarriff.html">Adam Kilgarriff, 1960-2015 (In Memoriam)</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/legacy/pastmeetings.html">Events 1995-2007</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/legacy/corporaarchive.html">CORPORA email categorization 1997-2004</a>
+            <a class="dropdown-item" href="http://alt.qcri.org/siglex/messctr.php?TYPE=ALL">Mailing list archives 2008-2020</a>
+            <a class="dropdown-item" href="http://alt.qcri.org/siglex/ressearch.php">Index of lexical resources</a>
+          </div>
         </li>
       </ul>
     </div>
