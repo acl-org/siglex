@@ -4,7 +4,9 @@ $(document).ready(function() {
         download: true,
         header: true,
         complete: function(results) {
-            $('#members').DataTable( {
+            var table = $('#members').DataTable( {
+                dom: "lrtip",
+                orderCellsTop: true,
                 data: results.data,
                 columns: [
                     { data: 'Name', render : function ( data, type, row, meta ) { 
@@ -16,9 +18,19 @@ $(document).ready(function() {
                     } },
                     { data: 'Affiliation' },
                     { data: 'Country' },
+                    { data: 'Sections' },
                     { data: 'Interests' },
                 ],
+                initComplete: function () {
+                    $( '#members thead tr th input'  ).on('keyup change clear', function () {
+                        table
+                            .column( $(this).parent().index() )
+                            .search( this.value )
+                            .draw();
+                    } );
+                },
             } );
+            $("#waiting").hide();
         }
     } )
 } );
