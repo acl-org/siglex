@@ -5,7 +5,7 @@ stylesheets: ["https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.
 scripts: [
   "https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js",
   'https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js',
-  "https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js",
+  "https://apis.google.com/js/api.js",
   "assets/js/members.js",
 ]
 ---

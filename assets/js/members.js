@@ -1,36 +1,55 @@
-var csv_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTP7L5GKDjzAeSwBzu1fIz3a_kIVOv02Fgsc1-NNfd96OkisSMZvEilATMx4e0x0bT5-FEcF47uPGaN/pub?gid=33838788&single=true&output=csv';
-$(document).ready(function() {
-    Papa.parse(csv_url, {
-        download: true,
-        header: true,
-        complete: function(results) {
-            var table = $('#members').DataTable( {
-                dom: "lrtip",
-                orderCellsTop: true,
-                data: results.data,
-                columns: [
-                    { data: 'Name', render : function ( data, type, row, meta ) { 
-                        var name = row["Family Name"] + ", " + row["Given Name"];
-                        if (row["Home Page"]) {
-                            name = '<a href="' + row["Home Page"] + '">' + name + '</a>';
-                        }
-                        return name;
-                    } },
-                    { data: 'Affiliation' },
-                    { data: 'Country' },
-                    { data: 'Sections' },
-                    { data: 'Interests' },
-                ],
-                initComplete: function () {
-                    $( '#members thead tr th input'  ).on('keyup change clear', function () {
-                        table
-                            .column( $(this).parent().index() )
-                            .search( this.value )
-                            .draw();
-                    } );
-                },
-            } );
-            $("#waiting").hide();
-        }
-    } )
-} );
+function alertError(response) {
+    alert(JSON.stringify(response, null, 2));
+}
+
+$(document).ready(function () {
+    gapi.load('client:auth2', function () {
+        gapi.client.init({
+            apiKey: 'AIzaSyALPKC_2dJ9QNBKQAHnKI8PtfUhhGkKzmQ',
+            discoveryDocs: ["https://sheets.googleapis.com/$discovery/rest?version=v4"],
+            scope: "https://www.googleapis.com/auth/spreadsheets.readonly"
+        }).then(function () {
+            gapi.client.sheets.spreadsheets.values.get({
+                spreadsheetId: '1miHr4lkpVXYS_wPr_-kSua1NZQFB8uP6WE0EyiSJ-E8',
+                range: 'SIGLEX!A2:G',
+            }).then(function (response) {
+                var familyName = 0;
+                var givenName = 1;
+                var affiliation = 2;
+                var country = 3;
+                var homePage = 4;
+                var interests = 5;
+                var sections = 6;
+                var table = $('#members').DataTable({
+                    dom: "lrtip",
+                    orderCellsTop: true,
+                    data: response.result.values,
+                    columns: [
+                        {
+                            data: 'Name', render: function (data, type, row, meta) {
+                                var name = row[familyName] + ", " + row[givenName];
+                                if (row[homePage]) {
+                                    name = '<a href="' + row[homePage] + '">' + name + '</a>';
+                                }
+                                return name;
+                            }
+                        },
+                        { data: affiliation },
+                        { data: country },
+                        { data: sections },
+                        { data: interests },
+                    ],
+                    initComplete: function () {
+                        $('#members thead tr th input').on('keyup change clear', function () {
+                            table
+                                .column($(this).parent().index())
+                                .search(this.value)
+                                .draw();
+                        });
+                    },
+                });
+                $("#waiting").hide();
+            }, alertError);
+        }, alertError);
+    });
+});
