@@ -2,8 +2,11 @@
 layout: post
 categories: [event]
 event_name: "COMPUTERM 2020"
-event_url: https://sites.google.com/view/computerm2020
-event_location: Marseilles, France
+event_url: "https://sites.google.com/view/computerm2020"
+event_location: "Marseille, France"
+event_submission_date: "2020-03-01"
+host_url: "https://lrec2020.lrec-conf.org/en/"
+sponsor_url: "https://lrec2020.lrec-conf.org/en/"
 ---
 Workshop on Computational Terminology CompuTerm 2020
 	and its share task TermEval
@@ -11,7 +14,7 @@ Workshop on Computational Terminology CompuTerm 2020
  LREC 2020 (Marseille, France)
  Saturday, 16th May 2019
  Marseille, France
- https://sites.google.com/view/computerm2020
+ <https://sites.google.com/view/computerm2020>
 
 !! Extended submission date : 1st March 2020
 
@@ -70,7 +73,7 @@ the
 domain of heart failure will be provided at a  later stage for 
 evaluation. 
 All information concerning the shared task is available on 
-http://termeval.ugent.be
+<http://termeval.ugent.be>
 Authors may submit system description papers to CompuTerm 
 2020 
 indicating TermEval shared task.

@@ -1,10 +1,34 @@
 ---
 layout: default
 ---
-<h1><a href="{{ page.event_homepage }}">{{ page.event_name }}</a></h1>
-<h2>in {{ page.event_location }}</h2>
-{% if page.event_conference_name %}
-<h3>as part of <a href="{{ page.event_conference_url }}">{{ page.event_conference_name }}</a></h3>
+<h1><a href="{{ page.event_url }}">{{ page.event_name }}</a></h1>
+<h2>In {{ page.event_location }}
+{% if page.host_name %}
+    <br/>with
+    {% if page.host_url %}
+        <a href="{{ page.host_url }}">
+    {% endif %}
+    {{ page.host_name }}
+    {% if page.host_url %}
+        </a>
+    {% endif %}
+{% endif %}
+</h2>
+{% if page.sponsor_name %}
+    Sponsored by
+    {% if page.sponsor_url %}
+        <a href="{{ page.sponsor_url }}">
+    {% endif %}
+    {{ page.sponsor_name }}.
+    {% if page.sponsor_url %}
+        </a>
+    {% endif %}
+    <br/>
+{% endif %}
+{% if page.siglex_endorsed %}
+Endorsed by <a href="https://siglex.org/">SIGLEX</a>.
 {% endif %}
 
+<div style="margin-top: 2em;">
 {{ content }}
+</div>
