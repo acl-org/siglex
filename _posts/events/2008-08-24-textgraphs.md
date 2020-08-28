@@ -7,8 +7,6 @@ event_location: "Manchester, UK"
 event_submission_date: "2008-05-05"
 host_name: "COLING 2008"
 host_url: "http://www.coling2008.org.uk/"
-sponsor_name: "COLING 2008"
-sponsor_url: "http://www.coling2008.org.uk/"
 siglex_endorsed: yes
 ---
 Recent years have shown an increased interest in bringing the field of graph theory into Natural Language Processing. In many NLP applications entities can be naturally represented as nodes in a graph and relations between them can be represented as edges. Recent research has shown that graph-based representations of linguistic units as diverse as words, sentences and documents give rise to novel

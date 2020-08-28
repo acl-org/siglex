@@ -3,12 +3,10 @@ layout: post
 categories: [event]
 event_name: "Workshop on Computational Neurolinguistics"
 event_url: "http://sites.google.com/site/compneurowsnaacl10/"
-event_location: "Los Angeles"
+event_location: "Los Angeles, California, USA"
 event_submission_date: "2010-03-01"
 host_name: "NAACL HLT 2010"
 host_url: "http://naaclhlt2010.isi.edu/index.html"
-sponsor_name: "NAACL HLT 2010"
-sponsor_url: "http://naaclhlt2010.isi.edu/index.html"
 ---
 The first Workshop on Computational Neurolinguistics will be held at NAACL next June in Los Angeles. We welcome submissions on the computational treatment of any aspect of language, that either make use of neural recordings or of biologically realistic neuronal models.
 

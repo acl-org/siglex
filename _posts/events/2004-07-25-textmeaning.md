@@ -6,8 +6,6 @@ event_url: "http://www.cs.toronto.edu/~gh/TextMeaning.html"
 event_location: "Barcelona, Spain"
 host_name: "ACL 2004"
 host_url: "http://www.acl2004.org/"
-sponsor_name: "ACL 2004"
-sponsor_url: "http://www.acl2004.org/"
 ---
 This aims to: re-establish the research community of knowledge-based interpretation of text meaning; explicate the implicit treatments of meaning in current knowledge-lean approaches and how they and knowledge-rich methods can work together; and emphasize the construction of systems that extract, represent, manipulate, and interpret the meaning of text (rather than theoretical and formal methods in semantics).
 

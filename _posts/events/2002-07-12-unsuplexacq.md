@@ -3,9 +3,8 @@ layout: post
 categories: [event]
 event_name: "Unsupervised Lexical Acquisition"
 event_url: "http://www.acl02.org/"
-event_location: "Philadelphia, USA"
+event_location: "Philadelphia, Pennsylvania, USA"
 host_name: "ACL 2002"
-sponsor_name: "ACL 2002"
 siglex_endorsed: yes
 ---
 Lexical resources form a cornerstone of all natural language understanding systems. It has long been recognized, however, that creating lexicons manually is a time-consuming, laborious, and expensive undertaking. Moreover, such lexicons can never be complete, given the ever-changing content of the lexicon, especially across different domains. Finally, development of broad-coverage NL systems in many languages may be hindered by the lack of broad-coverage, machine-readable lexical resources in those languages.

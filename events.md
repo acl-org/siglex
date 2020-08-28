@@ -26,6 +26,13 @@ Proceedings of many of these workshops and conferences can be found at the [ACL 
       <th>Location</th>
       <th>Details</th>
     </tr>
+    <tr>
+      <th><input type="text" placeholder="Search" /></th>
+      <th><input type="text" placeholder="Search" /></th>
+      <th><input type="text" placeholder="Search" /></th>
+      <th><input type="text" placeholder="Search" /></th>
+      <th><input type="text" placeholder="Search" /></th>
+    </tr>
   </thead>
   <tbody>
     {% for post in site.categories.event %}

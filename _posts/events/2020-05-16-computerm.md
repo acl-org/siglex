@@ -5,15 +5,15 @@ event_name: "COMPUTERM 2020"
 event_url: "https://sites.google.com/view/computerm2020"
 event_location: "Marseille, France"
 event_submission_date: "2020-03-01"
+host_name: "LREC 2020"
 host_url: "https://lrec2020.lrec-conf.org/en/"
-sponsor_url: "https://lrec2020.lrec-conf.org/en/"
 ---
 Workshop on Computational Terminology CompuTerm 2020
 	and its share task TermEval
 
- LREC 2020 (Marseille, France)
- Saturday, 16th May 2019
- Marseille, France
+ LREC 2020 (Marseille, France)  
+ Saturday, 16th May 2019  
+ Marseille, France  
  <https://sites.google.com/view/computerm2020>
 
 !! Extended submission date : 1st March 2020
@@ -81,20 +81,20 @@ indicating TermEval shared task.
 PROGRAM COMMITTEE CHAIRS
 
    General:
-   Béatrice Daille, LS2N, University of Nantes, France
-   Kyo Kageura, Library and Information Science Laboratory, 
+   * Béatrice Daille, LS2N, University of Nantes, France
+   * Kyo Kageura, Library and Information Science Laboratory, 
 University of Tokyo, Japan
-   Ayla Rigouts Terryn, LT3 Language and Translation Technology 
+   * Ayla Rigouts Terryn, LT3 Language and Translation Technology 
 Team, Ghent University, Belgium
 
    TermEval shared task:
-   Els Lefever, LT3 Language and Translation Technology Team, 
+   * Els Lefever, LT3 Language and Translation Technology Team, 
 Ghent University, Belgium
-   Ayla Rigouts Terryn, LT3 Language and Translation Technology 
+   * Ayla Rigouts Terryn, LT3 Language and Translation Technology 
 Team, Ghent  University, Belgium
-   Patrick Drouin, OLST Observatoire de Linguistique Sens-Texte, 
+   * Patrick Drouin, OLST Observatoire de Linguistique Sens-Texte, 
 Université de Montréal, Canada
-   Véronique Hoste, Ghent University, Belgium
+   * Véronique Hoste, Ghent University, Belgium
 
    Importante dates:
 
@@ -107,5 +107,5 @@ Université de Montréal, Canada
 
    For any inquiries regarding the workshop please send an email 
 to
-   general session:  beatrice.daille@univ-nantes.fr
-   TermEval shared task: ayla.rigoutsterryn@ugent.be
+   * general session:  beatrice.daille@univ-nantes.fr
+   * TermEval shared task: ayla.rigoutsterryn@ugent.be

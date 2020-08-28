@@ -5,7 +5,6 @@ event_name: "eLexicography in the 21st century: New challenges, new applications
 event_url: "http://www.uclouvain.be/en-cecl-elexicography.html"
 event_location: "Louvain-la-Neuve, Belgium"
 event_submission_date: "2008-12-15"
-host_name: "Centre for English Corpus Linguistics (CECL)"
 sponsor_name: "Centre for English Corpus Linguistics (CECL)"
 siglex_endorsed: yes
 ---

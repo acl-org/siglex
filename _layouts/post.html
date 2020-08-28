@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
-<h1><a href="{{ page.event_url }}">{{ page.event_name }}</a></h1>
-<h2>In {{ page.event_location }}
+<h2>{{ page.event_name }}</h2>
+<h3><a href="{{ page.event_url }}">{{ page.event_url }}</a></h3>
+<h4>In {{ page.event_location }}
 {% if page.host_name %}
-    <br/>with
+    with
     {% if page.host_url %}
         <a href="{{ page.host_url }}">
     {% endif %}
@@ -13,7 +14,7 @@ layout: default
         </a>
     {% endif %}
 {% endif %}
-</h2>
+</h4>
 {% if page.sponsor_name %}
     Sponsored by
     {% if page.sponsor_url %}

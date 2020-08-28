@@ -3,12 +3,10 @@ layout: post
 categories: [event]
 event_name: "TextGraphs-4: Graph-based Methods for Natural Language Processing"
 event_url: "http://www.textgraphs.org/ws09/index.html"
-event_location: "Workshop at the ACL/IJCNLP 2009 Conference (Singapore)"
+event_location: "Singapore"
 event_submission_date: "2009-05-01"
-host_name: "ACL/IJCNLP 2009 Conference"
+host_name: "ACL/IJCNLP 2009"
 host_url: "http://www.acl-ijcnlp-2009.org/"
-sponsor_name: "ACL/IJCNLP 2009 Conference"
-sponsor_url: "http://www.acl-ijcnlp-2009.org/"
 siglex_endorsed: yes
 ---
 Recent years have shown an increased amount of interest in applying graph theoretic models to computational linguistics. Both graph theory and computational linguistics are well studied disciplines which have traditionally been perceived as distinct, embracing different algorithms, different applications, and different potential end-users. However, as recent research work has shown, the two seemingly distinct disciplines are in fact intimately connected, with a large variety of natural language processing applications adopting efficient and elegant solutions from graph-theoretical framework.

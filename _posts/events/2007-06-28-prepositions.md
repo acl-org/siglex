@@ -1,13 +1,11 @@
 ---
 layout: post
 categories: [event]
-event_name: "4th ACL-SIGSEM Workshop on Prepositions, ACL 2007 Workshop,"
+event_name: "4th ACL-SIGSEM Workshop on Prepositions"
 event_url: "http://csserver.ucd.ie/~fintanc/acl2007/prepositions.html"
 event_location: "Prague, Czech Republic"
-host_name: "Association for Computational Linguisttcs"
+host_name: "ACL 2007"
 host_url: "http://ufal.mff.cuni.cz/acl2007/"
-sponsor_name: "Association for Computational Linguisttcs"
-sponsor_url: "http://ufal.mff.cuni.cz/acl2007/"
 siglex_endorsed: yes
 ---
 Prepositions, postpositions and other adpositions have received a considerable amount of interest in recent
