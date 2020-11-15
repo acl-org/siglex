@@ -34,10 +34,10 @@ $(document).ready(function () {
                                 return name;
                             }
                         },
-                        { data: affiliation },
-                        { data: country },
-                        { data: sections },
-                        { data: interests },
+                        { data: affiliation, defaultContent: "" },
+                        { data: country, defaultContent: "" },
+                        { data: sections, defaultContent: "" },
+                        { data: interests, defaultContent: "" },
                     ],
                     initComplete: function () {
                         $('#members thead tr th input').on('keyup change clear', function () {
