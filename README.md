@@ -36,9 +36,9 @@ You can propose improvements/corrections to the SIGLEX website via pull requests
 
   1. When you want to contribute to a GitHub project, the first step is to fork the repository. Therefore, click on the _Fork_ button in the top-right corner. This creates a new copy of the `siglex` repository under your GitHub user account with a URL like: `https://github.com/<YourUserName>/siglex`.
   2. Next, clone the repository on your computer by opening the terminal and running the command: `git clone https://github.com/<YourUserName>/siglex` (or use the ssh URL if you prefer)
-  3. You can either create a branch or work directly on the `master` branch, but probably creating a branch is a good idea to clearly indicate what issue you are addressing. Edit and/or create the markdown files, then commit and push the changes to your remote forked repository under your GitHub username.
-  4. Once you push the changes to your repo, the _Compare & pull request_ button will appear in GitHub. Click it to create the pull request when you're ready.
+  3. You can either create a branch (e.g. `git branch issue12; git checkout issue12`) or work directly on the `master` branch. Probably creating a branch is a good idea to clearly indicate what issue you are addressing. Edit and/or create the markdown files locally using your favorite text editor, then commit and push the changes (`git commit -a; git push`) to the forked repository under your GitHub username. If you are not familiar with the Linux/Mac terminal, you can carry out these operations using GitHub's web interface.
+  4. Once you push the changes to your repository, the _Compare & pull request_ button will appear in GitHub. Click it to create the pull request when you're ready.
   5. Add a description of your contribution, then open a pull request by clicking the _Create pull request_ button. This allows the website editors to review your contribution. From here, they can merge it if it is good, or they may ask you to make some changes.
   6. If this is a punctual contribution, you can remove the forked repository once your pull request has been merged into the website.
 
-These instructions were adapted from this (tutorial)[https://opensource.com/article/19/7/create-pull-request-github]
+These instructions were adapted from [this tutorial](https://opensource.com/article/19/7/create-pull-request-github)
