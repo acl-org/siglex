@@ -26,7 +26,7 @@ These topics cover include the following:
 
 The above list is indicative and not exhaustive. Any submission presenting a study related to the alternative terms of phraseological units, multiword expressions, multiword units, formulaic language, or polylexical expressions, will be considered.
 
-SUMBMISSIONS ADN PUBLICATION
+SUMBMISSIONS AND PUBLICATION
 
 The conference invites submissions reporting original unpublished work.
 
