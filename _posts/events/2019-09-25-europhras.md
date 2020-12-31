@@ -9,7 +9,7 @@ siglex_endorsed: yes
 ---
 Computational and Corpus-based Phraseology (Europhras 2019)
 
-Malaga, 25-27 September 2019
+Malaga, Spain, 25-27 September 2019  
 <http://www.lexytrad.es/europhras2019>  
 
 The conference will focus on interdisciplinary approaches to phraseology and invites submissions on a wide range of topics, covering, but not limited to: computational, corpus-based, psycholinguistic and cognitive approaches to the study of phraseology, and practical applications in computational linguistics, translation, lexicography and language learning, teaching and assessment.
