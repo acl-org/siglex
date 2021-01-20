@@ -16,6 +16,7 @@ SIGLEX maintains a list of its members names, affiliations and research interest
 There are no dues with membership; all that is necessary is an interest in lexical issues.
 If you would like to join SIGLEX, please fill out the [SIGLEX registration form](https://docs.google.com/forms/d/e/1FAIpQLSfldnrynfsqwMu_xwI-c8nxajUUeALJd9INhEPcSb8zCD-GBQ/viewform?usp=sf_link).
 If you are unable to access the form, contact <siglex-board@googlegroups.com>.
+If you would like to have your information removed from SIGLEX, please send a request to  <siglex-board@googlegroups.com> and we will remove you from our records.
 
 <div id="waiting" class="alert alert-info" >
 Please wait while member information is loaded.
