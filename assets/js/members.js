@@ -13,8 +13,8 @@ $(document).ready(function () {
                 spreadsheetId: '1miHr4lkpVXYS_wPr_-kSua1NZQFB8uP6WE0EyiSJ-E8',
                 range: 'SIGLEX!A2:G',
             }).then(function (response) {
-                var familyName = 0;
-                var givenName = 1;
+                var givenName = 0;
+                var familyName = 1;
                 var affiliation = 2;
                 var country = 3;
                 var homePage = 4;
