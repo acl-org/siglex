@@ -29,7 +29,11 @@ $(document).ready(function () {
                             data: 'Name', render: function (data, type, row, meta) {
                                 var name = row[familyName] + ", " + row[givenName];
                                 if (row[homePage]) {
-                                    name = '<a href="' + row[homePage] + '">' + name + '</a>';
+                                    var homepage = row[homePage];
+                                    if (! homepage.startswith("http")) {
+                                        homepage = "http://" + homepage;
+                                    }                                    
+                                    name = '<a href="' + homepage + '">' + name + '</a>';
                                 }
                                 return name;
                             }
