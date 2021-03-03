@@ -30,7 +30,7 @@ $(document).ready(function () {
                                 var name = row[familyName] + ", " + row[givenName];
                                 if (row[homePage]) {
                                     var homepage = row[homePage];
-                                    if (! homepage.startswith("http")) {
+                                    if (! homepage.startsWith("http")) {
                                         homepage = "http://" + homepage;
                                     }                                    
                                     name = '<a href="' + homepage + '">' + name + '</a>';
