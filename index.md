@@ -8,7 +8,10 @@ title: "Home"
 ## Mission
 
 SIGLEX, a Special Interest Group on the Lexicon of the [Association for Computational Linguistics](http://www.aclweb.org), provides an umbrella for research interests on lexical issues ranging from lexicography and the use of online dictionaries to computational lexical semantics.
-SIGLEX is also the umbrella organization for the [SemEval](https://semeval.github.io/) semantic evaluations (previously, the [SENSEVAL](http://www.senseval.org/) word-sense evaluation exercises), and organizes the [*SEM Joint Conference on Lexical and Computational Semantics](https://www.aclweb.org/anthology/venues/starsem/).
+SIGLEX annually organizes
+the [International Workshop on Semantic Evaluation (SemEval)](https://semeval.github.io/) (previously [SENSEVAL](http://www.senseval.org/)),
+the [Workshop on Multiword Expressions (MWE)](https://multiword.org/events/previousevents), and
+the [Joint Conference on Lexical and Computational Semantics (*SEM)](https://www.aclweb.org/anthology/venues/starsem/).
 
 ## History
 
