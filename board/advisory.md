@@ -6,7 +6,7 @@ title: "Advisory Board"
 ## SIGLEX Advisory Board
 
 Eneko Agirre, University of the Basque Country  
-Marianna Apidianaki, LIMSI-CNRS  
+Marianna Apidianaki, University Aix-Marseille, CNRS  
 Tim Baldwin, University of Melbourne  
 Nicoletta Calzolari, University of Pisa  
 Marine Carpuat, University of Maryland  
